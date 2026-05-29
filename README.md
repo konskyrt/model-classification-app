@@ -1,4 +1,4 @@
-# BIM Label Classifier
+# BIM Taxonomy Classifier
 
 Supervised **machine learning** workflow for predicting corrected BIM `Label Code` values from aggregated object-signature data.
 
