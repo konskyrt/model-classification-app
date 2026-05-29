@@ -1,0 +1,11 @@
+{
+  "experiment": "exp3_huge_signature_mitigation",
+  "accuracy": 0.8846,
+  "macro_f1": 0.6375,
+  "weighted_f1": 0.8894,
+  "mean_confidence": 0.9183,
+  "train_time_s": 61.3,
+  "train_signatures": 2495,
+  "test_signatures": 624,
+  "num_classes": 97
+}

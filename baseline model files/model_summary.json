@@ -1,0 +1,13 @@
+{
+  "model": "LightGBM",
+  "accuracy": 0.7756,
+  "macro_f1": 0.4339,
+  "weighted_f1": 0.7738,
+  "train_signatures": 2495,
+  "test_signatures": 624,
+  "num_classes": 97,
+  "feature_shape": [
+    2495,
+    7411
+  ]
+}

@@ -1,0 +1,625 @@
+signature,predicted_label,confidence,alternative_1,alt_1_confidence,alternative_2,alt_2_confidence,true_label,correct,label_name
+59090a083bb9d56d...,KO.02.02.01,0.9998,KO.04.01.01,0.0001,KO.02.02.05.01,0.0001,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+0ee8efb9de2f7a2c...,SN.03,0.9984,SN.21.05,0.0016,SN.21,0.0,SN.03,True,Rohrarmaturen: Bögen
+962172bf7bb4304c...,KO.04.01.01,0.9991,F03.02,0.0009,KO.06.04,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+223732e71942fa24...,KO.02.02.04,0.9993,SN.21.08,0.0004,HZ.35,0.0001,I01.01,False,"Innenwand, Gipskarton, Trockenbauwand"
+1579bd0a2336b251...,KO.04.01.01,0.7679,F01.04.01,0.2321,KO.99,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+f795696ce3795c11...,KO.04.01.02,0.9999,F01.04.01,0.0001,F04.02.02,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+69f0a2730b119d05...,HZ.35,0.2994,KO.03.02.01,0.2826,KO.06.01,0.1729,KO.03.02.01,False,Sonstige Heizungskomponenten
+a2d1c5e3270e5179...,KO.02.02.03,1.0,KO.02.02.01,0.0,KO.04.01.01,0.0,KO.02.02.03,True,"Innenwand, Stahlkonstruktion"
+142f844cefab1f2c...,HZ.04.01,0.5183,SN.07,0.3457,SN.43,0.1039,SN.43,False,Wärmespeicher
+3d6a40bdd099b880...,LF.09,0.9208,KO.02.02.04,0.0509,SN.10,0.0108,SN.09,False,Luftauslass (Diffusor/Grill)
+aee8fe152db9681b...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+ad7c1b42c224b567...,KO.05.01,0.9998,KO.04.01.01,0.0002,F01.05.01,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+cf308f6a3188f9f9...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+13a7c474b385f89f...,KO.02.02.04,0.8745,SN.10,0.1222,KO.04.01.01,0.0009,KO.04.01.01,False,"Innenwand, Gipskarton, Trockenbauwand"
+b5241a7a8d27b151...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+916ad0b3bbac0de3...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+b1e43a02d0d66181...,F01.05.01,1.0,KO.02.02.01,0.0,KO.02.02.05.01,0.0,F01.05.01,True,"Innentür, innere Anschlagtüren"
+08e911bce1795b82...,KO.99,1.0,HZ.02.01,0.0,KO.04.01.01,0.0,KO.99,True,Sonstige Konstruktion
+af202658e8d0c578...,SN.03,0.7557,SN.18.05,0.2434,SN.21.08,0.0006,SN.03,True,Rohrarmaturen: Bögen
+0333658962230c84...,KO.05.01,0.9993,F01.06,0.0006,KO.02.02.01,0.0001,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+fb201881d8ba516b...,KO.04.01.01,0.9999,F01.04.01,0.0001,F01.05.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+19e0ca65828d0c31...,KO.02.02.01,0.9994,KO.04.01.01,0.0006,KO.02.01.01,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+0ca947e76231da55...,SN.18.05,0.9998,SN.03,0.0001,SN.21.08,0.0001,SN.21,False,Bogen 90°
+89ef187204e8aebb...,KO.04.03.01,1.0,KO.02.02.05,0.0,KO.04.02.03,0.0,KO.04.03.01,True,"Steigzonen, Innen liegendes Treppenpodest, Massivbau, Beton"
+6077af1c39712412...,KO.02.02.01,0.9999,KO.02.02.05.01,0.0001,KO.04.01.01,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+4bb832061ef5dea4...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+073d1a021e3491af...,KO.04.03.01,1.0,KO.04.01.01,0.0,EQUIP.08,0.0,KO.04.03.01,True,"Steigzonen, Innen liegendes Treppenpodest, Massivbau, Beton"
+660642bb8745adcc...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+de99938088b9514e...,F01.04.01,1.0,KO.04.05.02,0.0,KO.02.02.01,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+fa76d0b2844e3282...,KO.02.02.01,1.0,KO.02.01.03,0.0,KO.02.01.01,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+c9f3236df5c74ab7...,LF.05,0.9999,HZ.35,0.0,SN.07,0.0,LF.05,True,Luftfittings: T-Stücke
+c3419062d6837cfe...,F03.02,0.9999,KO.06.04,0.0001,KO.04.01.01,0.0,F03.02,True,Wandbekleidungssysteme
+9704b7d19398b928...,F01.05.01,0.8444,F01.04.01,0.1524,KO.02.02.04,0.0017,F01.05.01,True,"Innentür, innere Anschlagtüren"
+5224efe5bb1157aa...,F03.02,1.0,KO.03.02.02,0.0,KO.02.02.04,0.0,F03.02,True,Wandbekleidungssysteme
+9d924c50647dc326...,KO.04.01.02,0.9481,KO.04.04.01,0.0162,KO.04.02.01,0.0114,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+e4e976f9113e31da...,KO.03.02.02,1.0,KO.03.02.01,0.0,KO.03.02.03,0.0,KO.03.02.02,True,"Innenstützen Rohbau, Hybrid-Holzbau"
+4867e407fa0938d7...,KO.04.02.01,1.0,KO.04.02.03,0.0,SN.07,0.0,KO.04.02.01,True,"Steigzonen, Innen liegende Treppe, Massivbau, Beton"
+b62792ff80ae8ca3...,KO.03.02.01,1.0,KO.03.02.03,0.0,KO.04.04.01,0.0,KO.03.02.01,True,"Innenstützen Rohbau, Massivbau, Beton"
+f3cfd2e0a671d746...,KO.05.01,0.9818,HZ.35,0.0046,HZ.02.01,0.0039,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+07af5de47ae3f604...,KO.02.02.05.01,0.9999,KO.02.02.01,0.0001,KO.04.01.01,0.0,KO.02.02.05.01,True,"Innenwand, Leichtbauwand, Holz"
+6bf66e7d5deff04b...,KO.04.05.02,1.0,KO.04.02.01,0.0,KO.02.02.01,0.0,KO.04.05.02,True,"Aussen liegende Treppe, Zusammengebaut, Holz, Stahl"
+fb198198a25a6b8f...,KO.99,0.9897,KO.00.02,0.0025,KO.04.04.01,0.0022,KO.02.02.01,False,Sonstige Konstruktion
+7841594bf14c1eec...,KO.04.01.01,1.0,KO.01.03,0.0,F04.02.02,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+0e7c00dbe8cc06fd...,HZ.04.01,0.5183,SN.07,0.3457,SN.43,0.1039,KO.99,False,Wärmespeicher
+d5b6cf9a3174bba2...,F01.04.01,0.9946,SN.43,0.0018,KO.99,0.0011,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+659f3886f49280b5...,KO.04.02.03,1.0,F01.06,0.0,HZ.02.01,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+fcf09edefbd28bb7...,KO.04.02.01,0.9998,KO.04.01.02,0.0001,F01.04.01,0.0,KO.04.02.01,True,"Steigzonen, Innen liegende Treppe, Massivbau, Beton"
+b71597f7a9c68304...,F01.04.01,0.9972,KO.05.01,0.0027,F01.05.01,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+cc7c5afcc7a6c835...,KO.04.02.03,0.9999,INT.07.01,0.0001,EQUIP.08,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+bef219434b4e2e8f...,KO.04.04.01,1.0,HZ.35,0.0,SN.07,0.0,KO.04.04.01,True,Dachkonstruktion Flachdach
+da9bb6d23654c429...,EL.04,1.0,LF.23,0.0,SN.01,0.0,EL.04,True,Kabeltrasse
+011eed1850a530ff...,KO.04.02.03,0.9999,KO.04.02.01,0.0001,KO.02.02.05,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+c37dd1fa768b42dc...,KO.04.01.01,0.9976,KO.04.05.01,0.0023,KO.04.02.01,0.0,KO.04.05.01,False,"Geschossdecke, Massiv, Beton"
+8f2fab054663cc54...,SN.10,0.9996,SN.05.01,0.0004,LF.09,0.0,LF.08,False,"Toilette (WC, wandhängend)"
+33487bac34410888...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+0e3b42eb5a9a3d61...,KO.99,0.9665,SN.01,0.0213,SN.18.05,0.0031,KO.02.02.01,False,Sonstige Konstruktion
+3a5745ea92f139e7...,KO.04.01.02,1.0,F04.02.02,0.0,F01.04.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+9c60207bd3d3c84f...,SN.21.05,0.9857,SN.22.02,0.0056,LF.09,0.0011,LF.05,False,T-Stücke
+39d0107aa2b147ed...,KO.04.04.01,0.9994,KO.04.01.01,0.0006,F01.04.01,0.0,KO.04.04.01,True,Dachkonstruktion Flachdach
+1cd450ac9fc1540c...,KO.04.02.01,1.0,KO.04.02.03,0.0,SN.07,0.0,KO.04.02.01,True,"Steigzonen, Innen liegende Treppe, Massivbau, Beton"
+093567fb689b8fa6...,KO.04.01.01,0.7295,KO.04.02.01,0.2639,KO.01.03,0.0032,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+239f14fba3b13f6e...,KO.02.02.03,1.0,KO.02.02.01,0.0,HZ.35,0.0,KO.02.02.03,True,"Innenwand, Stahlkonstruktion"
+9be70d791be8c2b6...,KO.02.02.01,1.0,F03.02.01,0.0,KO.02.02.03,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+56b9658030aa78ec...,SN.49.01,0.9119,HZ.11,0.0832,KO.04.04.02,0.002,HZ.11,False,Rohrdämmung
+ab48772e02def30b...,KO.04.01.02,0.9571,KO.04.04.01,0.0374,KO.03.02.02,0.0044,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+e624b6164446fc2d...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+0ea516622b286e82...,KO.02.02.01,0.8615,LF.25,0.1167,KO.99,0.0161,KO.02.02.05,False,"Innenwand, Massivbau, Beton"
+1ed4ad637ad02896...,SN.21,0.9674,F01.06,0.0322,KO.04.04.02,0.0002,SN.21.08,False,Rohrverbindungen
+0775926f5ee36b18...,KO.04.01.02,0.9996,KO.04.04.01,0.0003,INT.06.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+8c7945450d80c385...,KO.03.02.01,0.9985,KO.03.02.02,0.0008,KO.01.02.01,0.0007,KO.03.02.01,True,"Innenstützen Rohbau, Massivbau, Beton"
+303cb64ede4ffa23...,KO.04.04.01,0.998,KO.04.01.01,0.002,EL.29,0.0,KO.04.04.01,True,Dachkonstruktion Flachdach
+451f1eb6fe06b7ad...,HZ.09.01,1.0,SN.09,0.0,HZ.35,0.0,SN.12,False,Kugelhähne
+9b0d7ba5758b2521...,HZ.09.01,0.7945,SN.09,0.2029,SN.05.01,0.0018,KO.04.01.01,False,Kugelhähne
+3ab3f1e309b86baf...,KO.04.01.01,0.9944,KO.02.02.01,0.0056,KO.02.02.05.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+70084f16b36ff2a8...,KO.02.02.01,0.9259,KO.02.02.04,0.0385,KO.02.02.02,0.0244,KO.02.02.02,False,"Innenwand, Massivbau, Beton"
+702ba5a731a0692e...,KO.04.01.02,1.0,F04.02.02,0.0,HZ.35,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+2cbbe380965ef409...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+e50e08d94b92100e...,KO.03.02.01,0.4409,KO.03.02.03,0.2451,SN.21.08,0.0847,KO.06.01,False,"Innenstützen Rohbau, Massivbau, Beton"
+26b4fc6d035d2016...,SN.07,0.2594,SN.10,0.2452,F01.04.01,0.2171,KO.02.02.03,False,Wassertank (Speicher-/Ausdehnungsbehälter)
+11e72a0774ebd695...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+a197262a9ae36538...,KO.02.02.01,0.6225,KO.06.01,0.3613,KO.02.02.05.01,0.0071,KO.02.02.05.01,False,"Innenwand, Massivbau, Beton"
+6451edf6ec7f79ba...,SN.01,0.9778,LF.03,0.0219,F01.06,0.0002,SN.01,True,Wasserrohr (gerades Segment)
+880c654c11065c7f...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+eb990bb18d28159a...,KO.01.06.01,0.16,EL.04,0.1417,SN.49.01,0.081,EL.04,False,"Erdverbundener Aufzugschacht, Stahlbeton"
+32e74dd20900a0c2...,SN.49.01,1.0,SN.21,0.0,SN.09,0.0,SN.49.01,True,Rohrdämmung
+ae859d5745aaad75...,KO.99,1.0,KO.01.01.01,0.0,KO.02.01.04,0.0,KO.99,True,Sonstige Konstruktion
+988b229ce52876b4...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+6e1aed165e556d06...,KO.04.02.03,1.0,F01.05.01,0.0,HZ.02.01,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+82c577422b8d6c6a...,EL.04,1.0,SN.01,0.0,LF.03,0.0,EL.04,True,Kabeltrasse
+b94cc1e0089602af...,KO.04.01.02,1.0,F04.02.02,0.0,F01.04.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+4f6742df054f3fee...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+142b7f1e366ba646...,HZ.11,0.7933,SN.49.01,0.1964,EL.01,0.0015,SN.49.01,False,Rohrdämmung Heizung
+bda6dc1cd33d6e60...,KO.04.02.01,0.9999,KO.04.01.02,0.0001,HZ.02.01,0.0,KO.04.02.01,True,"Steigzonen, Innen liegende Treppe, Massivbau, Beton"
+de9f45339ed88d36...,KO.04.02.03,0.9998,INT.07.01,0.0002,EQUIP.08,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+b206eeec4ce5d41d...,LF.03,0.9997,SN.01,0.0002,SN.07,0.0,LF.23,False,Luftkanal (gerades Segment)
+a98c8863a4f18130...,KO.99,1.0,KO.02.02.01,0.0,KO.06.01,0.0,KO.99,True,Sonstige Konstruktion
+98c29f7a7abfe768...,SN.10,0.3719,SN.09,0.1311,KO.02.02.04,0.0979,KO.02.02.04,False,"Toilette (WC, wandhängend)"
+eddefd7649447ead...,KO.04.04.01,0.9991,KO.04.01.02,0.0008,KO.04.02.01,0.0001,KO.04.04.01,True,Dachkonstruktion Flachdach
+583716e8eff9f1e6...,KO.04.01.02,0.9936,F04.02.02,0.0058,F01.04.01,0.0002,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+21d308116cceb546...,KO.04.01.02,1.0,KO.04.02.01,0.0,F01.04.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+54847b43556a22df...,KO.02.02.01,0.9998,KO.02.02.05.01,0.0001,KO.04.01.01,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+9de383e126d382e1...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+4957fd133d924c38...,KO.02.02.05.01,1.0,KO.04.01.01,0.0,KO.02.02.01,0.0,KO.02.02.05.01,True,"Innenwand, Leichtbauwand, Holz"
+7847e7754d37529c...,KO.04.02.03,1.0,F01.06,0.0,HZ.02.01,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+041e9aa4f902bd5b...,KO.04.04.01,0.9982,KO.04.01.01,0.0018,KO.01.03,0.0,KO.04.04.01,True,Dachkonstruktion Flachdach
+7a764cf0d9b84ae4...,KO.04.01.01,1.0,LF.31,0.0,SN.05.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+0f9d01bdf036e409...,LF.31,0.9371,SN.21,0.0337,LF.31.01,0.017,LF.31.01,False,Sonstige Lüftungskomponenten
+a61733a6d7c5a0b3...,KO.04.02.01,0.9999,KO.05.01,0.0001,KO.04.05.02,0.0,KO.04.02.01,True,"Steigzonen, Innen liegende Treppe, Massivbau, Beton"
+4fb17020a13d161e...,KO.02.02.03,0.9978,KO.02.02.01,0.0015,KO.02.02.04,0.0005,KO.04.01.01,False,"Innenwand, Stahlkonstruktion"
+ca2e0e1ebf295c79...,HZ.04.01,0.7218,SN.43,0.1837,SN.01,0.0792,KO.04.01.01,False,Wärmespeicher
+19edef190006b98c...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+be06711db9cc61cc...,HZ.11,0.3202,EL.04,0.1046,HZ.35,0.075,LF.03,False,Rohrdämmung Heizung
+90205443bd65e946...,KO.99,1.0,KO.01.01.01,0.0,KO.06.01,0.0,KO.99,True,Sonstige Konstruktion
+06bed61e160d642e...,F01.04.01,1.0,KO.01.02.01,0.0,KO.01.03,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+0fa5adbbafe58903...,KO.02.02.04,0.8448,EL.09.01,0.073,SN.05.01,0.0259,EL.09,False,"Innenwand, Gipskarton, Trockenbauwand"
+a81bc82c821998d1...,KO.04.01.01,0.9455,HZ.35,0.0338,HZ.02.01,0.0177,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+5d36a93e3640d011...,F03.02,1.0,KO.04.01.01,0.0,KO.02.02.05.01,0.0,F03.02,True,Wandbekleidungssysteme
+e131c085ec6d901a...,KO.02.02.01,1.0,KO.02.01.03,0.0,KO.02.01.01,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+4eca3bdc2748d2f8...,SN.01,0.9994,HZ.03.01,0.0005,LF.23,0.0001,SN.01,True,Wasserrohr (gerades Segment)
+7cffd7a2edf7a393...,KO.99,1.0,KO.02.02.01,0.0,KO.02.01.04,0.0,KO.99,True,Sonstige Konstruktion
+2f894e18c584e399...,SN.49.01,0.9999,LF.30,0.0,HZ.35,0.0,KO.04.01.01,False,Rohrdämmung
+16df9a927d53792f...,KO.01.01.01,1.0,KO.99,0.0,F01.04.01,0.0,KO.01.01.01,True,"Sauberkeitsschicht, Splitbett"
+3dca92d54d064fab...,KO.05.01,1.0,F01.04.01,0.0,KO.04.01.01,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+ebb9095ecf68ccfc...,SN.01,0.9958,LF.03,0.004,LF.23,0.0001,SN.01,True,Wasserrohr (gerades Segment)
+4d3d5fd49f4b1f75...,KO.04.03.01,1.0,KO.04.02.03,0.0,KO.04.01.01,0.0,KO.04.03.01,True,"Steigzonen, Innen liegendes Treppenpodest, Massivbau, Beton"
+18021946ab4a10bc...,KO.03.02.01,0.9054,KO.03.01.01,0.0904,KO.06.01,0.0029,KO.04.02.01,False,"Innenstützen Rohbau, Massivbau, Beton"
+610c7f8242ad785b...,F01.04.01,0.9998,KO.03.02.01,0.0002,KO.03.01.01,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+c38b0222aee8fea4...,KO.04.02.01,1.0,KO.04.02.03,0.0,SN.07,0.0,KO.04.02.01,True,"Steigzonen, Innen liegende Treppe, Massivbau, Beton"
+58fab76ad1ef4a4a...,SN.01,0.6623,LF.03,0.28,LF.23,0.0126,SN.01,True,Wasserrohr (gerades Segment)
+e1117b8ec56c72de...,KO.04.02.03,1.0,SN.07,0.0,HZ.35,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+7439194d0ae1b55c...,SN.10,0.6745,SN.09,0.1269,LF.09,0.0705,KO.02.02.04,False,"Toilette (WC, wandhängend)"
+2316a8b3ffec0f52...,KO.04.01.01,0.9975,F01.04.01,0.0011,KO.02.02.04,0.0003,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+3d31081b94530492...,KO.04.02.01,0.9999,KO.04.01.02,0.0,KO.02.02.04,0.0,KO.04.02.01,True,"Steigzonen, Innen liegende Treppe, Massivbau, Beton"
+742c09b19d420d02...,LF.04,0.8082,SN.01,0.0349,LF.30,0.0242,HZ.03.01,False,Luftfittings: Bögen
+4610faf0d471a361...,SN.21.08,0.6237,SN.03,0.2402,SN.22.01,0.0864,SN.22.02,False,Reduktion
+16b45d4a3f07b489...,KO.04.01.01,1.0,HZ.35,0.0,HZ.04.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+c7b421cad415713b...,LF.03,0.9939,SN.01,0.005,HZ.02.01,0.0008,SN.01,False,Luftkanal (gerades Segment)
+1409bfb1a587fb77...,KO.04.02.03,1.0,HZ.02.01,0.0,HZ.35,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+fe97db7906316356...,F01.04.01,0.8339,F01.05.01,0.1459,HZ.02.01,0.0024,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+687ff3e4acbe7ad6...,KO.02.02.01,0.9999,KO.02.02.04,0.0001,SN.07,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+601585af9eb3b67f...,SN.10,0.998,EL.09,0.0009,SN.09,0.0006,SN.10,True,"Toilette (WC, wandhängend)"
+5123638e2bf3b149...,KO.05.01,0.9996,F01.04.01,0.0002,F01.05.01,0.0001,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+855363a79d47387f...,LF.31,0.9755,SN.21.05,0.018,SN.21.08,0.0018,SN.18.05,False,Sonstige Lüftungskomponenten
+1cc6d095f3e7833d...,KO.02.02.01,0.9996,KO.04.01.01,0.0001,KO.02.01.01,0.0001,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+02b1d25030564475...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+35170045bb8df70a...,LF.13,1.0,INT.07.01,0.0,LF.04,0.0,LF.13,True,Lüftungsdämmung
+c26d7df72e27a85c...,KO.03.02.03,1.0,KO.03.02.01,0.0,KO.03.02.02,0.0,KO.03.02.03,True,"Innenstützen Rohbau, Metall, Stahl"
+2cd2eeaa6d02c453...,KO.04.02.03,1.0,F01.06,0.0,SN.01,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+d9503bba44d3cd78...,KO.04.04.01,1.0,KO.04.01.01,0.0,F01.04.01,0.0,KO.04.04.01,True,Dachkonstruktion Flachdach
+6db1e077ed3a8572...,SN.01,0.9436,LF.23,0.0082,HZ.11,0.0074,LF.30,False,Wasserrohr (gerades Segment)
+f44fd170026d21b2...,LF.08,0.3638,KO.02.02.01,0.3451,KO.02.01.01,0.268,KO.02.02.01,False,Luftfilter
+77cc63f803ef4068...,SN.01,0.9958,KO.04.04.02,0.0015,SN.09,0.0008,SN.01,True,Wasserrohr (gerades Segment)
+e9a0535181c43da2...,KO.02.02.01,0.9973,KO.02.02.03,0.0016,KO.02.02.04,0.0004,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+90c7a3e15d322e85...,KO.04.01.01,0.9993,KO.05.01,0.0004,KO.04.04.01,0.0001,KO.01.03,False,"Geschossdecke, Massiv, Beton"
+0e679cc6bf6663e9...,F04.02.02,1.0,KO.04.01.02,0.0,F01.04.01,0.0,F04.02.02,True,"Deckenbekleidung, Verbunddecke"
+4347d0ad00b15e7c...,INT.06.01,1.0,KO.04.01.01,0.0,F04.02.02,0.0,INT.06.01,True,Estrich
+4c0d9f32c09c6d42...,KO.02.02.05.02,0.9975,KO.06.01,0.001,KO.02.01.04,0.001,KO.02.02.01,False,"Innenwand, Glasbauwand"
+6744c8a48900e71a...,LF.07,1.0,LF.03,0.0,SN.43,0.0,EL.01,False,Luftschalldämpfer (Akustikabsorber)
+5f31ebe76305d1e5...,KO.04.04.01,0.9615,KO.01.03,0.0385,KO.04.01.01,0.0,KO.04.04.01,True,Dachkonstruktion Flachdach
+d0fa952038da0218...,KO.99,0.9998,KO.01.01.01,0.0001,HZ.35,0.0001,KO.99,True,Sonstige Konstruktion
+0f553b7e04b09a1f...,SN.09,0.5083,SN.05.01,0.1273,SN.12,0.0985,SN.09,True,Waschtisch (Waschbecken)
+018bf116a45d0d4b...,KO.99,1.0,SN.07,0.0,KO.02.01.04,0.0,KO.99,True,Sonstige Konstruktion
+26afc1ba3a03f620...,KO.06.02,0.5255,F04.02.02,0.3794,EQUIP.08,0.0243,KO.06.02,True,Fassadenbekleidungssystem (Metall-/Holz-/Keramik-/Faserzementtafeln)
+6e26c8abc5d0eeef...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+cd9815ad2df018ec...,KO.05.01,0.9997,F01.05.01,0.0001,KO.06.01,0.0001,F01.04.01,False,"Durchbruch, Schlitz zu Konstruktion"
+2cb25666f406eac9...,KO.06.04,1.0,EL.09,0.0,KO.04.01.01,0.0,KO.06.04,True,Fassaden Dämmung / Isolationsschichten
+0137db817ddd9ed7...,KO.02.02.01,0.4893,KO.02.02.02,0.3631,F01.04.01,0.0554,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+1ff3e30b7281083a...,KO.04.01.02,0.9995,HZ.35,0.0002,LF.09,0.0001,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+ca3b6d7c6a59b0e9...,KO.02.02.01,1.0,KO.02.01.03,0.0,KO.04.01.02,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+f1a3947631a8b4d6...,KO.04.05.02,0.9981,KO.04.02.01,0.0019,KO.04.04.01,0.0,KO.04.05.02,True,"Aussen liegende Treppe, Zusammengebaut, Holz, Stahl"
+7646552eee99bfd0...,LF.03,0.7766,LF.23,0.1655,SN.01,0.0413,LF.23,False,Luftkanal (gerades Segment)
+ab1f5d849dc7bf10...,KO.05.01,1.0,F01.04.01,0.0,F01.06,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+72f467d83d0f05b8...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+cef025d69c344fcb...,KO.04.04.01,0.9995,KO.04.01.01,0.0005,F01.04.01,0.0,KO.04.04.01,True,Dachkonstruktion Flachdach
+5cf13ad891d26fa6...,KO.04.01.01,1.0,EQUIP.07,0.0,KO.04.04.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+1fad88ebcb610719...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+3f51e469744abbc3...,KO.02.02.01,1.0,F03.02.01,0.0,KO.02.02.05.01,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+7bc2f3699982a44d...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+4906142e99e25ef9...,KO.02.02.01,0.8985,KO.05.01,0.0867,KO.04.05.02,0.0123,KO.01.03,False,"Innenwand, Massivbau, Beton"
+1d0588eef48905ce...,SN.03,0.4262,SN.43,0.236,SN.21.07,0.1687,SN.03,True,Rohrarmaturen: Bögen
+e870937415fa41bb...,KO.04.02.03,1.0,F01.06,0.0,HZ.02.01,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+322636935bd39806...,KO.06.01,0.9911,F01.06,0.0019,KO.04.05.02,0.001,KO.04.07,False,Fassadenkonstruktionssystem Vorhangfassade / Pfosten-Riegel-System
+3f6941d5533db84d...,F01.04.01,0.999,KO.04.02.01,0.0008,KO.04.01.02,0.0002,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+2b1a4c8a0fd554c1...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+f8ecb4b0bb613534...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+11444204ea0fc1c9...,KO.04.01.02,1.0,KO.04.02.01,0.0,HZ.02.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+eff9b8a4b9fd8c46...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+4d3cbbd525058df6...,KO.04.01.01,1.0,F01.04.01,0.0,KO.04.04.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+20a49f386bde0026...,KO.99,1.0,KO.04.01.01,0.0,KO.06.02,0.0,KO.99,True,Sonstige Konstruktion
+bd2b8d3ab25c1af5...,LF.31.01,0.9997,SN.21.08,0.0001,LF.31,0.0,SN.03,False,Reduzierung gepresst
+d8ad6c04ebefb2c7...,KO.99,0.5757,KO.04.01.01,0.3975,KO.04.04.01,0.0157,KO.04.04.01,False,Sonstige Konstruktion
+c1bd4343eb7c2326...,KO.05.01,1.0,F01.04.01,0.0,KO.04.05.01,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+5a3a75f431ce96f2...,KO.04.01.01,1.0,F04.02.02,0.0,KO.04.04.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+ac96c8f22d9fb1b8...,F01.04.01,0.9998,F01.05.01,0.0001,KO.06.01,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+6b3883d5951b50de...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+ecac5f42c7f1996f...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+941f9d932a368f59...,KO.04.04.01,0.5397,KO.04.07,0.4145,KO.02.02.01,0.0445,KO.04.07,False,Dachkonstruktion Flachdach
+a3f7c5eb62b0831f...,F01.04.01,1.0,KO.01.03,0.0,SN.21.08,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+d2380f39a0e7f608...,KO.04.01.01,1.0,F03.02,0.0,SN.07,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+cf3e3f269897a76c...,F03.02,1.0,KO.02.02.04,0.0,KO.04.01.01,0.0,F03.02,True,Wandbekleidungssysteme
+d792b3ba7e249792...,LF.13,1.0,LF.05,0.0,INT.07.01,0.0,LF.13,True,Lüftungsdämmung
+9a126cdda3b5ad75...,KO.02.02.03,1.0,KO.06.01,0.0,KO.02.02.01,0.0,KO.02.02.03,True,"Innenwand, Stahlkonstruktion"
+794931d70ef1f778...,KO.05.01,1.0,HZ.35,0.0,HZ.04.01,0.0,F01.04.01,False,"Durchbruch, Schlitz zu Konstruktion"
+27870578acce324b...,KO.04.01.01,0.9999,HZ.35,0.0001,HZ.02.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+f908648c9a7ec1ca...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+852113f0b45645a8...,KO.02.02.01,1.0,KO.02.01.03,0.0,KO.02.01.01,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+7c2621127e4de9b8...,KO.04.01.01,1.0,F03.02,0.0,KO.02.02.04,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+6a3cdcb31d651804...,KO.04.04.01,0.9996,KO.04.01.01,0.0004,KO.06.01,0.0,KO.04.04.01,True,Dachkonstruktion Flachdach
+e02edb05bb6cbe77...,KO.04.01.01,1.0,KO.03.02.03,0.0,SN.07,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+968a49ee033e2833...,KO.02.02.03,0.9999,KO.02.02.01,0.0001,SN.21.08,0.0,KO.02.02.03,True,"Innenwand, Stahlkonstruktion"
+f9edfe3db21f4f04...,KO.04.01.02,0.9988,KO.02.02.01,0.0008,KO.04.04.01,0.0002,KO.04.02.01,False,"Geschossdeckenträger, Stahl"
+a10db7530cbf7c87...,KO.04.01.01,0.9998,KO.06.01,0.0001,EQUIP.07,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+55f2f44d497cdbd7...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+bf4ea7d251a10bd9...,SN.05.01,0.9841,LF.31,0.0093,SN.10,0.0041,SN.10,False,"Ventile, Absperrventile"
+075927283f4d345c...,LF.05,0.5401,HZ.35,0.108,SN.07,0.0983,LF.05,True,Luftfittings: T-Stücke
+b27eb75c80a46b55...,KO.99,1.0,KO.06.01,0.0,KO.04.04.01,0.0,KO.99,True,Sonstige Konstruktion
+8cd82a430dcef3e1...,F01.04.01,0.9995,KO.05.01,0.0005,F01.06,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+4bd4fabe125b8344...,HZ.11,0.7379,SN.49.01,0.2621,LF.30,0.0,SN.49.01,False,Rohrdämmung Heizung
+63947788a623b64f...,LF.13,1.0,KO.04.04.02,0.0,EQUIP.08,0.0,LF.13,True,Lüftungsdämmung
+09b8cec08842b7cb...,F03.02,1.0,KO.02.02.04,0.0,KO.03.02.02,0.0,F03.02,True,Wandbekleidungssysteme
+0ea71374fdb36fcd...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+7f9bc388025c6950...,KO.05.01,0.99,LF.31,0.0077,KO.02.02.05.01,0.0008,KO.02.02.05.01,False,"Durchbruch, Schlitz zu Konstruktion"
+3b715e3109b8a957...,KO.02.02.02,1.0,KO.02.02.01,0.0,KO.02.01.01,0.0,KO.02.02.02,True,"Innenwand, Mauerwerk, Ziegel"
+1667af07c60d2d75...,KO.05.01,1.0,SN.01,0.0,KO.04.02.03,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+d9cad2a16948fb72...,KO.04.01.01,1.0,HZ.35,0.0,HZ.02.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+d597bf3c7ba38f7d...,SN.10,0.9994,SN.05.01,0.0004,SN.05.02,0.0001,SN.10,True,"Toilette (WC, wandhängend)"
+c4f9f8866048f88f...,HZ.11,0.9998,LF.04,0.0001,SN.49.01,0.0001,HZ.11,True,Rohrdämmung Heizung
+c9c2e580f9cc1a40...,KO.04.01.01,0.2534,EQUIP.08,0.1494,HZ.08.01,0.1195,KO.01.02.01,False,"Geschossdecke, Massiv, Beton"
+25384f1cdd963852...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+222adebca2e01e3e...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+c9afcd439687cad8...,F01.05.01,0.6206,F01.04.01,0.3791,KO.05.01,0.0001,F01.05.01,True,"Innentür, innere Anschlagtüren"
+7718d03d594d8863...,KO.02.02.05.01,0.9998,KO.02.02.01,0.0001,KO.04.01.01,0.0,KO.02.02.05.01,True,"Innenwand, Leichtbauwand, Holz"
+43b3156a569ffe78...,EL.29,0.3836,SN.09,0.2103,SN.10,0.0675,EL.09.01,False,Abhänger (Hängestiehl)
+252ff7106c3b41c0...,F03.02,1.0,KO.06.04,0.0,KO.02.02.04,0.0,F03.02,True,Wandbekleidungssysteme
+cdd8e2d1c378ce34...,LF.03,0.9673,SN.01,0.0145,LF.30,0.0092,SN.01,False,Luftkanal (gerades Segment)
+e381ad6dc6ee8c3a...,F03.02,1.0,KO.06.04,0.0,KO.04.01.01,0.0,F03.02,True,Wandbekleidungssysteme
+0d9e5e97e80c4957...,KO.04.01.01,0.83,KO.01.03,0.1696,KO.04.04.01,0.0001,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+dde9731b7557b91c...,KO.04.01.02,0.9999,F04.02.02,0.0,HZ.02.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+198564233dff4875...,KO.04.01.02,1.0,F01.04.01,0.0,F04.02.02,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+475b3a42d5085921...,KO.02.02.03,1.0,KO.02.02.01,0.0,KO.02.02.05.01,0.0,KO.02.02.03,True,"Innenwand, Stahlkonstruktion"
+aba7f0ee9df15d1d...,SN.09,0.9674,SN.21,0.0258,HZ.09.01,0.0012,SN.09,True,Waschtisch (Waschbecken)
+0408792b0d6da820...,HZ.35,0.4462,HZ.02.01,0.2345,KO.05.01,0.1304,F01.04.01,False,Sonstige Heizungskomponenten
+d766ec23a36b58ee...,KO.02.02.01,1.0,KO.02.01.03,0.0,KO.02.01.01,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+ddc3dfda7e8d1f05...,KO.02.02.01,1.0,KO.02.02.02,0.0,SN.07,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+9f782e91398a4fd0...,F03.02,1.0,KO.02.02.04,0.0,KO.03.02.02,0.0,F03.02,True,Wandbekleidungssysteme
+7fdf5130ddf12b5a...,KO.02.02.01,0.9998,KO.02.02.02,0.0001,KO.02.02.04,0.0001,KO.02.02.02,False,"Innenwand, Massivbau, Beton"
+44120fd17e861932...,LF.03,0.6426,LF.23,0.2914,SN.01,0.0585,LF.03,True,Luftkanal (gerades Segment)
+acaacd208a3dece6...,KO.02.02.01,0.9895,KO.02.01.01,0.0063,KO.02.02.02,0.0023,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+32f5c0c1378ce864...,GAS.01,1.0,KO.05.01,0.0,HZ.35,0.0,GAS.01,True,Gasrohr (Hauptleitung)
+1b7057c334d49fe6...,KO.02.02.01,0.9999,KO.02.02.05.01,0.0,KO.04.01.01,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+8eaf4e425dbb81b4...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+8c47c2af7e6847db...,KO.04.01.01,0.9573,F01.05.01,0.0422,SN.07,0.0001,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+64b3a54b864a1589...,KO.99,1.0,KO.02.02.01,0.0,KO.06.02,0.0,KO.99,True,Sonstige Konstruktion
+82af16a8d91f833e...,F01.04.01,0.9999,KO.03.02.01,0.0001,KO.03.01.01,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+0f10319d9c81dc39...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+da58f39fc715a1a9...,KO.04.01.01,1.0,KO.04.04.01,0.0,KO.01.03,0.0,KO.01.03,False,"Geschossdecke, Massiv, Beton"
+0d199ebb6d2dd299...,SN.21.08,0.7121,LF.31,0.1758,LF.31.01,0.095,LF.31,False,Reduktion
+a8acd32748ef6264...,KO.05.01,0.893,KO.01.02.01,0.1006,KO.04.04.01,0.0021,KO.01.02.01,False,"Durchbruch, Schlitz zu Konstruktion"
+1e2071e138753603...,KO.02.02.01,1.0,SN.07,0.0,KO.02.02.03,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+9b4ffece622a5814...,KO.04.02.03,1.0,LF.05,0.0,SN.07,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+6334f4ec0056ce11...,KO.03.02.02,0.9994,KO.03.02.01,0.0004,KO.03.02.03,0.0001,KO.03.02.02,True,"Innenstützen Rohbau, Hybrid-Holzbau"
+8a3801018408a82e...,KO.03.02.01,0.9334,KO.03.02.03,0.0665,KO.03.02.02,0.0,KO.03.02.03,False,"Innenstützen Rohbau, Massivbau, Beton"
+e2ee715aa1f0fd94...,KO.04.04.01,0.998,KO.04.01.01,0.002,EL.29,0.0,KO.04.04.01,True,Dachkonstruktion Flachdach
+9faff0b88608ed8a...,SN.01,0.7349,KO.02.02.01,0.2011,LF.03,0.0147,HZ.03.01,False,Wasserrohr (gerades Segment)
+f2f399158e201afa...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+f6ed0e7c0f188a7b...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+3920e0adaf9a0e37...,F03.02,1.0,KO.03.02.02,0.0,KO.02.02.05.02,0.0,F03.02,True,Wandbekleidungssysteme
+e13f47d2d21c429b...,KO.02.02.04,0.9995,F03.02.01,0.0005,KO.02.02.05.01,0.0,KO.02.02.04,True,"Innenwand, Gipskarton, Trockenbauwand"
+c4f26a98aba68302...,KO.05.01,0.5168,KO.99,0.2708,F01.04.01,0.0504,KO.02.02.01,False,"Durchbruch, Schlitz zu Konstruktion"
+4d7c2beefcdc405a...,KO.02.02.01,0.9987,KO.02.02.05.01,0.0013,HZ.35,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+77ec3df078500bf1...,F01.06,0.5723,SN.01,0.2296,LF.03,0.0729,SN.01,False,Innentor
+b9cde3b4ec40c1e0...,KO.04.01.01,0.9973,KO.01.03,0.0009,INT.06.01,0.0008,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+f3fd669b7ebd3a6d...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+6f7f098daf3d11d3...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+cb8965b7e1993d0d...,KO.05.01,0.9994,KO.02.02.01,0.0003,F01.06,0.0001,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+feac648e03f6f6cf...,LF.05,0.9928,SN.21,0.0063,LF.31.01,0.0007,SN.03,False,Luftfittings: T-Stücke
+8eb754ada6b81feb...,KO.05.01,0.9996,F01.06,0.0003,F01.04.01,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+ab3977f6ea6f9278...,KO.04.01.02,0.9999,KO.03.02.02,0.0,KO.04.04.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+813f481e193f0934...,F01.05.01,0.9999,SN.09,0.0,EQUIP.07,0.0,F01.05.01,True,"Innentür, innere Anschlagtüren"
+2e896bb69428ae80...,KO.02.02.01,0.9994,F01.05.01,0.0002,KO.04.02.03,0.0002,KO.04.01.01,False,"Innenwand, Massivbau, Beton"
+c59af73923ec1afd...,SN.21,0.7209,SN.21.07,0.122,SN.21.08,0.0676,SN.21.08,False,Rohrverbindungen
+969790ac3c5a0226...,KO.05.01,1.0,F01.05.01,0.0,EQUIP.08,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+1e5b1cc267117246...,KO.02.01.01,0.9994,KO.02.02.01,0.0005,KO.02.02.05.02,0.0,KO.02.01.01,True,"Aussenwand, Massivbau, Beton"
+3c78a5e439797a57...,KO.04.02.03,1.0,KO.04.02.01,0.0,EQUIP.08,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+9d550613bf21c4ef...,SN.03,0.681,SN.21,0.3188,SN.21.07,0.0001,SN.21,False,Rohrarmaturen: Bögen
+421804baa54c9357...,LF.09,0.9743,KO.04.01.02,0.0256,LF.31,0.0,KO.04.01.02,False,Luftauslass (Diffusor/Grill)
+72bd5ed5accc950f...,LF.13,1.0,F01.04.01,0.0,HZ.11,0.0,LF.13,True,Lüftungsdämmung
+8fd781e43c2939d4...,KO.02.02.01,0.995,HZ.35,0.0019,KO.02.01.01,0.0013,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+15b5ca8d2d35f8ef...,KO.02.02.01,0.8695,KO.02.01.01,0.1024,KO.01.06.01,0.0179,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+f390f0397af32be1...,KO.99,1.0,KO.06.01,0.0,HZ.02.01,0.0,KO.99,True,Sonstige Konstruktion
+294e67fcabb15fa5...,KO.02.02.01,0.99,KO.04.04.01,0.0021,KO.02.01.01,0.0015,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+3410257955b4a82e...,F04.02.02,0.9999,KO.04.01.02,0.0,F01.04.01,0.0,F04.02.02,True,"Deckenbekleidung, Verbunddecke"
+7a11d83d415ca52e...,LF.23,0.2894,F01.04.01,0.1678,KO.06.02,0.0807,KO.02.01.01,False,Kanal eckig
+37c4510c6a519db7...,F01.05.07,0.8931,I01.01,0.0801,I01.02,0.0069,F01.07,False,"Innentür, Spezial-Innentüren"
+d97cf6e37fd89228...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+f8acfa13965a2f09...,EQUIP.02,0.9978,KO.02.02.04,0.0021,EQUIP.08,0.0,EQUIP.08,False,Haushaltsgerät (Küche)
+6c74dd9b19bcba08...,KO.04.02.03,1.0,LF.05,0.0,SN.07,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+863fffc5d02660d4...,KO.04.01.01,1.0,KO.04.04.01,0.0,EQUIP.07,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+d8176f27cf5d0c4e...,SN.01,0.9942,LF.03,0.0048,LF.30,0.0005,F01.06,False,Wasserrohr (gerades Segment)
+eb591fb98d95727d...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+fe470b15510ece25...,KO.02.02.01,0.9998,KO.02.01.01,0.0002,F01.05.01,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+415c5dfe059efa17...,KO.04.02.03,1.0,HZ.02.01,0.0,HZ.35,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+ebe988686d9665b9...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+c90d2330fe847ad8...,SN.21.05,0.5327,LF.31,0.273,SN.21.08,0.0526,SN.21.05,True,T-Stücke
+7e82a9626331796a...,KO.05.01,1.0,F01.04.01,0.0,KO.02.02.01,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+9bb3b579e47098ca...,KO.02.02.01,1.0,KO.02.01.03,0.0,KO.02.01.01,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+5a6ed8c824705116...,KO.04.01.02,0.9994,KO.04.04.01,0.0005,HZ.35,0.0,KO.04.01.01,False,"Geschossdeckenträger, Stahl"
+303e4518037b4f7b...,SN.09,0.5604,F01.05.01,0.4352,EL.29,0.001,SN.10,False,Waschtisch (Waschbecken)
+fc5797d9087e3813...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+b1f5114ab2e8bfbc...,KO.04.01.02,1.0,KO.04.04.01,0.0,KO.02.02.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+12e6477dba554969...,KO.04.01.01,0.9999,F01.04.01,0.0001,F01.05.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+6114cac432144ccc...,KO.05.01,1.0,F01.04.01,0.0,F01.05.01,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+3e95d2154fc524ad...,F01.04.01,0.26,F03.02.01,0.2519,F01.06,0.1339,KO.02.02.04,False,"Innenfenster, Fensterkomponenten"
+0281828a80eb281a...,HZ.04.01,0.8753,HZ.02.01,0.1156,SN.05.01,0.0018,SN.05.01,False,Wärmespeicher
+f9574934573ae774...,KO.04.02.03,1.0,F01.06,0.0,HZ.02.01,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+7cc68f75e85002e7...,KO.02.02.01,0.8585,KO.06.01,0.1376,KO.02.02.05.01,0.0015,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+ecb619c7c6e1ddba...,LF.31,0.9954,HZ.35,0.0018,SN.21.05,0.0017,SN.21,False,Sonstige Lüftungskomponenten
+5f3df0c1ffb7e4eb...,KO.01.02.01,0.9392,KO.05.01,0.0473,F01.04.01,0.013,KO.05.01,False,Regelfundamente
+3dc73e55c2190803...,KO.04.02.03,1.0,F01.06,0.0,HZ.02.01,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+cc588b1791211a97...,KO.05.01,0.9994,HZ.35,0.0004,HZ.02.01,0.0002,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+fcce2d34d9cde2da...,F04.02.02,1.0,F01.04.01,0.0,KO.04.01.02,0.0,F04.02.02,True,"Deckenbekleidung, Verbunddecke"
+98e309780cf186b8...,SN.05.01,0.7272,LF.31,0.1287,EL.09,0.0991,KO.04.01.01,False,"Ventile, Absperrventile"
+81f41e1979f42fb5...,KO.02.02.01,0.9954,KO.02.01.01,0.0043,F01.05.01,0.0001,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+91f81c602a83c043...,KO.02.02.01,0.8811,KO.02.02.05.02,0.0383,KO.02.02.05.01,0.0243,KO.02.02.05.01,False,"Innenwand, Massivbau, Beton"
+38f9903446592531...,KO.04.01.02,1.0,KO.04.02.01,0.0,F01.05.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+b48197e7dfabdae4...,KO.02.02.01,1.0,HZ.35,0.0,SN.43,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+9e813efd39d72319...,KO.99,1.0,KO.02.02.01,0.0,HZ.02.01,0.0,KO.99,True,Sonstige Konstruktion
+80d262eb764ecf25...,F01.04.01,0.9993,SN.21.08,0.0002,EQUIP.07,0.0001,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+0a2d055b89988171...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+6ac32c39989a3cf8...,KO.04.01.01,1.0,F03.02,0.0,KO.02.02.04,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+900a5832f35fa00f...,KO.05.01,1.0,F01.04.01,0.0,KO.04.01.01,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+8388be220d536975...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+91ffe027e8400d64...,KO.04.01.02,0.9998,KO.04.02.03,0.0,KO.04.04.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+e527537e12492250...,SN.49.01,1.0,HZ.11,0.0,F04.02.02,0.0,SN.49.01,True,Rohrdämmung
+49d9bf62ec1441cf...,SN.49.01,1.0,LF.30,0.0,SN.01,0.0,SN.49.01,True,Rohrdämmung
+3d57c11984445c0e...,KO.04.01.01,0.9934,KO.04.04.01,0.0061,KO.04.05.01,0.0004,KO.04.04.01,False,"Geschossdecke, Massiv, Beton"
+d3dbfb1d7e1a96d7...,F01.06,0.8412,F01.04.01,0.0611,F01.05.01,0.0557,F01.06,True,Innentor
+1eef8aa0d90702b4...,KO.02.02.05.02,1.0,KO.02.01.01,0.0,KO.02.02.03,0.0,KO.02.02.05.02,True,"Innenwand, Glasbauwand"
+7037c444c26c1425...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+8106c51d6b70b36f...,KO.04.01.02,0.9993,HZ.35,0.0005,KO.01.02.01,0.0001,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+1a95aba38ddacc30...,KO.04.01.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+08860db397b7f625...,KO.02.02.01,1.0,KO.02.02.05.01,0.0,KO.04.01.01,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+21fd0f467e1dfb4b...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+40b8672a10021731...,KO.04.02.01,0.9965,F01.04.01,0.0029,KO.04.01.02,0.0004,KO.04.02.01,True,"Steigzonen, Innen liegende Treppe, Massivbau, Beton"
+13121104242f8646...,KO.99,0.995,F01.05.01,0.003,SN.43,0.0014,KO.99,True,Sonstige Konstruktion
+10392f66069ac996...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+f5a1be39d0792177...,KO.05.01,1.0,F01.04.01,0.0,KO.02.02.01,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+fdeb0eb9ac9b66f7...,KO.04.01.01,1.0,F01.05.01,0.0,F01.04.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+f0b1bf7a7acd7416...,I01.01,0.813,EQUIP.08,0.0964,F01.05.07,0.0422,I01.01,True,"Mobiliar, Allgemeines Mobiliar"
+9c5d550c146b9c39...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+2f77b7eba191a9b5...,KO.04.01.01,0.9996,F04.02.02,0.0001,HZ.02.01,0.0001,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+1a83e4f8467b3489...,KO.02.02.01,0.9997,KO.02.01.01,0.0003,F01.04.01,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+abf234612af72bb1...,KO.04.01.02,1.0,F04.02.02,0.0,F01.06,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+847e29a71674f1d6...,KO.02.02.03,1.0,KO.02.02.05.01,0.0,KO.02.02.01,0.0,KO.02.02.03,True,"Innenwand, Stahlkonstruktion"
+7a586fbce59bb888...,KO.04.02.01,0.6314,KO.02.02.01,0.3415,KO.04.05.02,0.0177,KO.02.02.04,False,"Steigzonen, Innen liegende Treppe, Massivbau, Beton"
+042f049d63e76152...,F01.05.01,0.9765,KO.05.01,0.0183,KO.01.02.01,0.0041,F01.05.01,True,"Innentür, innere Anschlagtüren"
+176486d4573ba9ec...,INT.06.01,0.9974,F04.02.02,0.0026,SN.49.01,0.0,INT.06.01,True,Estrich
+b0e53039e8ec40bb...,KO.99,0.9999,KO.00.02,0.0001,KO.02.02.01,0.0001,KO.99,True,Sonstige Konstruktion
+9f66ecccc04f7aa9...,F03.02,1.0,KO.03.02.02,0.0,KO.02.02.04,0.0,F03.02,True,Wandbekleidungssysteme
+6db8cc6b5eb6fdc7...,KO.99,0.8878,KO.00.02,0.1111,KO.04.04.01,0.0009,KO.00.02,False,Sonstige Konstruktion
+952f1b21b6c424de...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+842c75473af7ec37...,KO.04.01.01,1.0,KO.04.03.01,0.0,KO.04.05.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+1ed621b896635708...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+b3b2bbf1ae0fd050...,KO.99,1.0,KO.01.01.01,0.0,KO.02.02.01,0.0,KO.99,True,Sonstige Konstruktion
+f38536154f4ae27d...,KO.04.02.03,1.0,HZ.02.01,0.0,HZ.35,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+4484cd3cd791be89...,KO.04.04.01,1.0,SN.07,0.0,HZ.04.01,0.0,KO.04.04.01,True,Dachkonstruktion Flachdach
+4ea73e7d7035f384...,KO.02.02.01,0.998,EQUIP.02,0.002,SN.43,0.0001,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+2cbdb3884c9009f6...,KO.04.01.02,1.0,KO.03.02.02,0.0,KO.04.02.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+9937e57d71d14a35...,KO.04.01.01,0.9998,KO.01.03,0.0001,KO.04.04.01,0.0001,KO.04.03.01,False,"Geschossdecke, Massiv, Beton"
+275d2d44fea73b97...,F03.02,1.0,KO.03.02.02,0.0,KO.04.01.01,0.0,F03.02,True,Wandbekleidungssysteme
+03bb92301349010f...,KO.02.02.01,0.8439,KO.02.01.01,0.1464,KO.02.02.02,0.0024,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+8955bed55b30ba67...,KO.04.04.01,1.0,KO.04.01.01,0.0,SN.07,0.0,KO.04.04.01,True,Dachkonstruktion Flachdach
+deeb6c4374f9624d...,KO.02.02.01,0.9996,KO.02.01.01,0.0003,KO.06.02,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+899877544d15279f...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+2163b62ccd003686...,SN.05.01,0.1339,INT.07.01,0.1165,LF.05,0.1009,INT.07.01,False,"Ventile, Absperrventile"
+195aaeb2457fcc4a...,KO.04.01.01,0.546,KO.01.03,0.4434,INT.06.01,0.0025,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+25c8baf12eaafd52...,LF.31,0.216,KO.05.01,0.1534,LF.10,0.1491,SN.43,False,Sonstige Lüftungskomponenten
+ec86b0f01ab55224...,F03.02.01,0.9837,F01.04.01,0.0045,KO.02.02.04,0.0036,F03.02.01,True,"Wandbekleidung, Metallwandpaneele"
+e1a66e0de0adee0b...,KO.04.03.01,1.0,KO.04.02.03,0.0,KO.04.01.01,0.0,KO.04.03.01,True,"Steigzonen, Innen liegendes Treppenpodest, Massivbau, Beton"
+04c4b4c0f7048125...,KO.02.02.01,1.0,KO.02.01.01,0.0,KO.02.02.02,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+3f4990e2121d3fcc...,LF.10,1.0,HZ.35,0.0,LF.31.01,0.0,LF.10,True,VAV-Endgerät (Variable Air Volume Box)
+632a2f325f2fb72f...,KO.04.01.02,0.9999,KO.04.04.01,0.0001,KO.02.02.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+d558c2f9d4a5fa5d...,SN.21.08,0.9726,SN.21.05,0.0244,LF.31.01,0.0008,SN.21.08,True,Reduktion
+ded453e6aa32d227...,F01.06,0.9971,HZ.35,0.0014,HZ.02.01,0.0007,F01.06,True,Innentor
+d9b36bd1634a7942...,LF.25,0.9549,KO.05.01,0.0117,SN.05.01,0.0077,KO.05.01,False,"Brandschutzklappe eckig 0,5 m"
+7cea8355af441fa3...,KO.04.01.02,0.9998,KO.04.02.01,0.0001,HZ.02.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+915f87887f526b94...,F04.02.02,0.9988,KO.06.04,0.0012,KO.04.01.01,0.0,F03.02,False,"Deckenbekleidung, Verbunddecke"
+43ac4f759cc3a884...,F03.02,0.9969,KO.06.01,0.0024,KO.06.04,0.0005,KO.04.01.01,False,Wandbekleidungssysteme
+ee5946aefe164aad...,F04.02.02,0.9986,KO.06.04,0.0014,SN.43,0.0,KO.01.03,False,"Deckenbekleidung, Verbunddecke"
+573cd7f90c36e7df...,F01.05.01,1.0,F01.04.01,0.0,KO.05.01,0.0,F01.05.01,True,"Innentür, innere Anschlagtüren"
+7377f8c4b952e885...,KO.04.02.03,1.0,SN.01,0.0,EQUIP.08,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+ecd9e9bdb35e8702...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+8fa618d6ca575ed1...,LF.13,1.0,SN.01,0.0,F04.02.02,0.0,LF.13,True,Lüftungsdämmung
+4c8791a5ea2a560f...,KO.06.01,1.0,KO.01.02.01,0.0,LF.31,0.0,KO.06.01,True,Fassadenkonstruktionssystem Vorhangfassade / Pfosten-Riegel-System
+ab08b96ba9679029...,F01.04.01,0.889,SN.43,0.0481,KO.01.03,0.0102,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+62a1e3a53362089c...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+fb379f26b3167fc3...,KO.99,0.9998,HZ.35,0.0001,HZ.02.01,0.0001,KO.99,True,Sonstige Konstruktion
+9ed88b1a9460d26a...,SN.05.02,0.9972,SN.05.01,0.0018,SN.10,0.0005,SN.10,False,"Ventile, Rückflussventile"
+64b2b8571e9acd4a...,LF.13,1.0,F04.02.02,0.0,INT.07.01,0.0,LF.13,True,Lüftungsdämmung
+b067417502a8ef9f...,OTH.01,0.9195,SN.43,0.0187,SN.07,0.0167,OTH.01,True,Sonstige Other
+b4af7c2c4814fd57...,KO.05.01,0.4127,SN.07,0.3319,LF.25,0.1531,SN.05.01,False,"Durchbruch, Schlitz zu Konstruktion"
+c88deeb677d46272...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+51fe2fcaf1ce21de...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+daa99bbc72881af5...,F01.04.01,0.9984,KO.04.04.01,0.0008,EQUIP.07,0.0001,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+6af7054e124183f8...,KO.04.01.01,1.0,KO.04.04.01,0.0,HZ.02.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+4fdd3606c3da2193...,KO.02.02.01,0.9999,KO.02.02.05.01,0.0,KO.02.02.04,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+abdf4be7cdacf5ab...,KO.02.02.01,0.9999,KO.02.02.05.01,0.0001,KO.02.02.04,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+0b8ce9ab6e69f646...,KO.05.01,1.0,F01.05.01,0.0,KO.02.02.04,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+d5a776626abc8add...,EQUIP.08,0.9988,KO.02.02.04,0.0011,I01.01,0.0001,EQUIP.08,True,Sonstige Elektrogeräte/Ausrüstung
+6bca8510a5a7f020...,KO.02.01.01,0.9979,KO.02.02.01,0.0019,KO.02.01.04,0.0,KO.02.02.01,False,"Aussenwand, Massivbau, Beton"
+a40a6c6aa1684050...,KO.04.01.02,0.9994,KO.04.02.01,0.0004,HZ.02.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+7be52b8123491589...,SN.01,0.9996,LF.03,0.0004,SN.07,0.0,SN.01,True,Wasserrohr (gerades Segment)
+e635d9fba2cf4253...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+bde95ad7efee7d0c...,KO.05.01,0.9999,KO.01.03,0.0,KO.04.05.01,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+a54a9755436c933f...,KO.99,1.0,KO.06.01,0.0,KO.02.01.04,0.0,KO.99,True,Sonstige Konstruktion
+a43171da40644509...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+70434c59cdfbc6f9...,KO.02.02.01,0.5631,KO.02.02.05.01,0.3618,KO.04.01.01,0.0469,KO.02.01.01,False,"Innenwand, Massivbau, Beton"
+71be7db325633cd9...,KO.02.01.01,0.9997,KO.01.02.01,0.0001,KO.02.02.01,0.0001,KO.02.01.01,True,"Aussenwand, Massivbau, Beton"
+e9c047a3d7b16aaf...,KO.04.01.01,0.9996,F03.02,0.0004,KO.02.02.04,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+3e83aa8d2abb165a...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+0c7d9c23f39961a5...,KO.05.01,0.9999,KO.04.01.01,0.0001,F01.04.01,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+c314a790d9573a88...,KO.04.01.02,1.0,F04.02.02,0.0,KO.04.01.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+106cee021bd6029c...,KO.02.02.04,0.9989,KO.04.01.01,0.0008,KO.02.02.05.01,0.0001,KO.02.02.04,True,"Innenwand, Gipskarton, Trockenbauwand"
+2fb165bd1ce8cf0d...,KO.02.02.01,0.9995,F01.04.01,0.0002,KO.02.02.05.01,0.0001,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+ef9ca468c94fe9d4...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+6be7c6b1dfbed219...,SN.49.01,0.9954,HZ.11,0.0046,SN.03,0.0,SN.49.01,True,Rohrdämmung
+61d4b426770e48f9...,KO.05.01,0.9944,KO.04.04.01,0.0012,HZ.02.01,0.0008,KO.02.02.01,False,"Durchbruch, Schlitz zu Konstruktion"
+c59e7dfd456a5506...,KO.02.02.04,0.9961,KO.02.02.01,0.0012,HZ.02.01,0.0005,KO.02.02.04,True,"Innenwand, Gipskarton, Trockenbauwand"
+e3d435aa9946a782...,KO.04.03.01,1.0,KO.04.02.03,0.0,KO.04.01.01,0.0,KO.04.03.01,True,"Steigzonen, Innen liegendes Treppenpodest, Massivbau, Beton"
+d15e42bd26f09c38...,KO.04.01.01,0.9999,HZ.35,0.0001,F01.05.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+b37f40b7ec868aa9...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+c1ceb3eface48520...,KO.04.01.02,0.9997,HZ.02.01,0.0001,F04.02.02,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+bc339e216575ffed...,KO.04.01.02,1.0,KO.04.02.01,0.0,HZ.02.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+a79d71f2cfa99b0a...,HZ.04.01,0.5183,SN.07,0.3457,SN.43,0.1039,SN.07,False,Wärmespeicher
+8db3b4ea3e4ad4cc...,EQUIP.08,0.995,F01.04.01,0.0019,HZ.02.01,0.0005,KO.05.01,False,Sonstige Elektrogeräte/Ausrüstung
+5572f54ee781fea3...,SN.05.01,0.9943,SN.10,0.0029,LF.08,0.0011,LF.25,False,"Ventile, Absperrventile"
+dc73cf56bd6856e7...,EQUIP.08,0.9947,KO.02.02.04,0.0039,SN.09,0.0007,SN.09,False,Sonstige Elektrogeräte/Ausrüstung
+363e50a97267812c...,KO.03.02.01,1.0,KO.03.02.03,0.0,SN.10,0.0,KO.03.02.01,True,"Innenstützen Rohbau, Massivbau, Beton"
+8c674657accac71b...,SN.03,0.9343,LF.31.01,0.0241,LF.31,0.0235,LF.31.01,False,Rohrarmaturen: Bögen
+83e3fd1418911bdb...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+9fbc81e115853b71...,LF.13,1.0,EL.01,0.0,INT.07.01,0.0,LF.13,True,Lüftungsdämmung
+cd86e800ff9f4a37...,KO.04.01.01,0.9999,KO.04.03.01,0.0001,KO.04.05.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+a526d3e6b356db2b...,KO.01.06.01,0.8934,KO.02.02.01,0.0579,KO.02.01.01,0.0388,KO.02.01.01,False,"Erdverbundener Aufzugschacht, Stahlbeton"
+827a6bb3b687cdc8...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+2c619c30ed148237...,SN.09,0.9997,HZ.02.01,0.0001,SN.05.01,0.0001,LF.09,False,Waschtisch (Waschbecken)
+c0aee75702c0f2b8...,KO.05.01,1.0,F01.05.01,0.0,KO.02.02.04,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+d778179f21db8704...,KO.06.01,1.0,KO.01.02.01,0.0,LF.31,0.0,KO.06.01,True,Fassadenkonstruktionssystem Vorhangfassade / Pfosten-Riegel-System
+dac49af4439dd84d...,KO.05.01,0.9999,KO.04.01.01,0.0001,F01.04.01,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+7c64f1b122102417...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+de340eda6d03fdfb...,KO.04.01.01,0.9999,KO.02.02.04,0.0,F03.02,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+50ff023d980dfdd7...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+4154ccb7f82e5755...,KO.02.02.01,1.0,KO.02.02.02,0.0,SN.07,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+1ce3549a50f810ae...,KO.04.01.02,0.9996,F04.02.02,0.0003,F03.02,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+dd69b57d78a8c4f0...,SN.05.01,0.6365,LF.10,0.2342,SN.21.07,0.0615,SN.05.01,True,"Ventile, Absperrventile"
+d3b919ae34c606d0...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+f8acb55ce7b96070...,KO.05.01,0.9964,LF.09,0.0009,SN.43,0.0008,SN.05.01,False,"Durchbruch, Schlitz zu Konstruktion"
+f09f91e0930a1acd...,LF.31,0.9954,HZ.35,0.0018,SN.21.05,0.0017,LF.31,True,Sonstige Lüftungskomponenten
+26496a4d9ae3c7dc...,SN.09,0.9998,HZ.35,0.0,SN.21,0.0,SN.10,False,Waschtisch (Waschbecken)
+dc6a917a51ac899d...,KO.02.02.01,1.0,SN.43,0.0,KO.02.02.04,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+9f649d895615e877...,KO.05.01,1.0,KO.99,0.0,F01.05.01,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+782e66e4812d600e...,KO.04.01.01,0.534,INT.06.01,0.4088,KO.04.04.01,0.0135,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+9a6f01c6ab44b42c...,KO.05.01,1.0,F01.04.01,0.0,KO.02.02.01,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+f82feb885e6da6fe...,SN.10,0.6398,SN.09,0.2791,KO.04.01.02,0.0354,SN.09,False,"Toilette (WC, wandhängend)"
+9471f03f3c49909a...,F01.04.01,0.9998,KO.02.02.01,0.0002,KO.04.01.02,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+b06b1cd6f9dbc3eb...,F01.06,1.0,KO.05.01,0.0,F01.05.01,0.0,F01.06,True,Innentor
+b944a8662eccc8a6...,KO.02.02.05.01,0.9991,KO.02.02.01,0.0009,KO.04.01.01,0.0,KO.02.02.05.01,True,"Innenwand, Leichtbauwand, Holz"
+6742c3848e2ad126...,KO.04.01.01,1.0,F04.02.02,0.0,KO.01.03,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+d54618ea5d3b5747...,LF.10,0.9445,LF.25,0.0252,KO.05.01,0.0101,LF.07,False,VAV-Endgerät (Variable Air Volume Box)
+67fc730b901e87b1...,KO.04.02.01,0.9999,EQUIP.08,0.0,HZ.35,0.0,KO.04.02.01,True,"Steigzonen, Innen liegende Treppe, Massivbau, Beton"
+06d8893937f36a33...,KO.02.02.01,0.9905,KO.02.02.04,0.0034,KO.04.02.03,0.0017,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+436f1dd559d77d6d...,F01.04.01,0.929,F01.05.01,0.0373,KO.02.02.04,0.0174,F01.05.01,False,"Innenfenster, Fensterkomponenten"
+8b2259adc31f3033...,KO.99,0.9999,HZ.35,0.0001,HZ.02.01,0.0,KO.99,True,Sonstige Konstruktion
+a33a9437d30297c5...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+cbd7ce50224fe006...,KO.04.01.01,0.9999,F01.04.01,0.0,SN.21.08,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+db3d18ed3596c907...,KO.04.01.02,1.0,F01.04.01,0.0,F04.02.02,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+026749f7272e6b14...,SN.03,0.9977,SN.05.02,0.0013,SN.21.08,0.0005,SN.21,False,Rohrarmaturen: Bögen
+6723b87257365441...,KO.02.01.01,0.9773,KO.02.02.01,0.0225,KO.01.02.01,0.0001,KO.02.02.01,False,"Aussenwand, Massivbau, Beton"
+2d83a67bf7ce32c8...,KO.02.02.01,1.0,KO.02.01.01,0.0,KO.02.02.05.01,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+f65cf7dc3ea29450...,KO.99,1.0,KO.02.01.04,0.0,KO.06.01,0.0,KO.99,True,Sonstige Konstruktion
+3542ae1b114beca7...,KO.04.02.03,1.0,HZ.02.01,0.0,HZ.35,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+88addd26703d80c7...,KO.04.01.01,0.956,KO.01.01.01,0.0144,EQUIP.08,0.0077,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+f038c39ded4ffd54...,LF.30,0.371,LF.03,0.1893,SN.01,0.1226,LF.04,False,Wickelfalzrohr-Zubehör
+66ebf24d463d50ce...,KO.04.02.03,1.0,F01.06,0.0,HZ.02.01,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+6af18527d15d4d8d...,KO.04.01.01,1.0,F01.04.01,0.0,KO.04.04.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+a8110865a0e32612...,EL.04,0.9996,SN.01,0.0003,LF.25,0.0,EL.04,True,Kabeltrasse
+4c081a375e8d3a5f...,KO.04.01.01,0.9993,F01.05.01,0.0003,SN.07,0.0001,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+73426842be69f414...,KO.02.02.01,0.9851,KO.04.01.01,0.0089,SN.21.08,0.0056,SN.21.08,False,"Innenwand, Massivbau, Beton"
+04729b2488ea6cd3...,KO.04.02.03,1.0,INT.07.01,0.0,F01.05.01,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+da9d2a7ba2485eb2...,F04.02.02,0.9976,KO.06.04,0.0024,KO.02.02.04,0.0,F04.02.02,True,"Deckenbekleidung, Verbunddecke"
+833c42a66f977194...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+97e252c45fcb9159...,F01.05.07,0.999,KO.02.02.04,0.001,KO.02.02.01,0.0,F01.05.07,True,"Innentür, Spezial-Innentüren"
+81bf5d2c696ec97f...,KO.99,1.0,KO.02.02.01,0.0,KO.02.01.04,0.0,KO.99,True,Sonstige Konstruktion
+ca2d832bcf48227c...,KO.02.02.04,0.978,KO.04.01.01,0.0073,F01.04.01,0.0053,KO.02.02.04,True,"Innenwand, Gipskarton, Trockenbauwand"
+b9cb08334a428c00...,KO.04.03.01,0.9999,KO.04.01.01,0.0,SN.07,0.0,KO.04.03.01,True,"Steigzonen, Innen liegendes Treppenpodest, Massivbau, Beton"
+c5b9d60097698c68...,KO.04.01.01,0.9977,F03.02,0.0022,F04.02.02,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+8513cb02e8c7fe7b...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+bd406ebb2d4a9a39...,INT.06.01,1.0,KO.04.01.01,0.0,KO.04.03.01,0.0,INT.06.01,True,Estrich
+c3726263a2702e5c...,KO.04.01.02,1.0,F04.02.02,0.0,F01.04.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+f2ffb04d471503bd...,KO.04.01.01,0.9995,KO.04.05.01,0.0004,KO.04.03.01,0.0001,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+4bdacc331d003904...,KO.05.01,1.0,KO.02.02.01,0.0,F01.04.01,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+ba7702d7acc89d48...,KO.04.01.01,0.9999,F01.05.01,0.0,HZ.35,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+3aa9c32db018e1fc...,KO.02.02.01,0.7809,KO.02.01.01,0.1284,F01.05.01,0.0593,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+c67e2af914442d96...,KO.04.01.02,0.9999,F04.02.02,0.0,F01.04.01,0.0,F04.02.02,False,"Geschossdeckenträger, Stahl"
+4c10800874b10369...,HZ.35,0.2814,HZ.02.01,0.2387,SN.21.08,0.0835,HZ.09.01,False,Sonstige Heizungskomponenten
+2635385424115052...,KO.04.01.02,1.0,KO.06.04,0.0,F04.02.02,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+db8b20a8c4a63609...,SN.21.01,0.7369,EQUIP.08,0.2539,LF.25,0.0074,SN.09,False,Reduktion mit Einschubende
+e16d4e8cc093580c...,KO.04.01.01,0.9938,F01.05.01,0.0049,SN.07,0.0002,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+1aecb9717050714a...,KO.99,1.0,F01.06,0.0,F01.05.01,0.0,KO.99,True,Sonstige Konstruktion
+113a73def8e3ae6a...,KO.02.02.01,0.9997,KO.02.02.05.01,0.0002,KO.99,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+1a6b6cd87358266a...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+920c5dcaa924dbce...,KO.04.01.01,0.9837,F04.02.02,0.0147,KO.04.04.01,0.0008,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+3c71c3732c6afff7...,KO.04.02.03,1.0,INT.07.01,0.0,F01.06,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+c98e91f7f15f9a0a...,KO.02.02.01,0.9999,KO.04.01.01,0.0,KO.99,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+8acaf81c771e03dd...,SN.09,0.9999,HZ.35,0.0,HZ.02.01,0.0,SN.09,True,Waschtisch (Waschbecken)
+7e4753b6559c5da4...,KO.02.02.01,0.985,KO.02.01.01,0.0075,KO.04.04.01,0.0051,KO.02.01.01,False,"Innenwand, Massivbau, Beton"
+a525f749cf27621e...,KO.04.02.01,0.9999,KO.05.01,0.0001,KO.04.05.02,0.0,KO.04.02.01,True,"Steigzonen, Innen liegende Treppe, Massivbau, Beton"
+cf61cb78fb8c954f...,KO.02.01.01,0.6519,KO.04.05.02,0.3394,KO.01.06.01,0.0035,KO.01.06.01,False,"Aussenwand, Massivbau, Beton"
+8d4a1c06c6602d40...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+d7d55082bdc3f2ae...,HZ.09.01,0.9774,SN.05.01,0.0191,SN.09,0.0026,SN.43,False,Kugelhähne
+c1ba85cfdb8be468...,INT.06.01,1.0,KO.04.01.01,0.0,KO.04.05.01,0.0,INT.06.01,True,Estrich
+6a442d65467887de...,SN.10,0.9982,LF.08,0.0016,LF.09,0.0001,HZ.02.01,False,"Toilette (WC, wandhängend)"
+67f5b53d3f6ced82...,KO.04.01.01,1.0,F01.04.01,0.0,KO.04.04.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+a70870e39dc6c687...,KO.04.01.01,0.5275,KO.02.02.05.01,0.4716,KO.02.02.01,0.0009,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+d1bf8975f9e9bb8c...,KO.99,1.0,KO.04.01.01,0.0,KO.06.01,0.0,KO.99,True,Sonstige Konstruktion
+4f62d6900d9f32d5...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+c15d5392fa197510...,KO.04.02.01,0.9999,KO.04.05.02,0.0001,KO.02.02.01,0.0,KO.04.02.01,True,"Steigzonen, Innen liegende Treppe, Massivbau, Beton"
+4cd4348414412015...,KO.04.01.01,1.0,F03.02,0.0,KO.04.07,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+69b2ce2894117660...,EQUIP.08,0.9929,HZ.02.01,0.0008,HZ.35,0.0007,EQUIP.08,True,Sonstige Elektrogeräte/Ausrüstung
+50de8959e3fe20fc...,INT.06.01,1.0,KO.01.03,0.0,KO.04.01.01,0.0,INT.06.01,True,Estrich
+2dc265802ba33569...,KO.04.04.01,0.9995,KO.04.02.01,0.0002,F01.04.01,0.0002,KO.04.04.01,True,Dachkonstruktion Flachdach
+671c28db9f9ea4bf...,KO.04.01.01,0.9995,HZ.02.01,0.0005,KO.04.05.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+c72cd22dc656444f...,SN.09,0.9995,SN.10,0.0004,LF.09,0.0,SN.09,True,Waschtisch (Waschbecken)
+1c0227f3495d9ff0...,LF.31.01,0.8748,SN.21.05,0.0703,SN.22.02,0.0093,SN.21.07,False,Reduzierung gepresst
+e36389b2d0217427...,KO.04.01.02,1.0,F01.04.01,0.0,F04.02.02,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+aac932425a3260e2...,LF.03,0.8599,LF.30,0.0803,SN.01,0.0197,LF.03,True,Luftkanal (gerades Segment)
+5821f4e7b8ba8a12...,KO.02.02.01,0.9985,KO.02.02.04,0.0006,KO.02.02.03,0.0004,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+af8d207a0930e705...,KO.04.04.01,1.0,KO.04.01.01,0.0,HZ.02.01,0.0,KO.04.04.01,True,Dachkonstruktion Flachdach
+4e73d57f48d48462...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+a6416241dbb33ff2...,KO.05.01,0.9999,F01.04.01,0.0,SN.21.08,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+1bb8aa822ca25f96...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+9c28e84b2f7b25f9...,SN.49.01,0.99,HZ.11,0.0022,LF.04,0.0013,SN.49.01,True,Rohrdämmung
+c3c24b371c7a7b9a...,INT.06.01,0.9996,KO.04.01.01,0.0003,KO.04.03.01,0.0001,INT.06.01,True,Estrich
+c60615f239761763...,KO.02.02.01,1.0,KO.04.01.01,0.0,KO.02.02.02,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+73c526779485b83a...,HZ.02.01,0.1514,HZ.35,0.1291,KO.01.02.01,0.1197,KO.02.01.01,False,Umwälzpumpe (Heizungspumpe)
+a3be1a8da91c6d50...,SN.49.01,0.9829,F04.02.02,0.0107,HZ.11,0.0062,SN.49.01,True,Rohrdämmung
+2cc1f004c8f6ba33...,KO.04.01.01,1.0,F03.02,0.0,SN.07,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+532661093fad1d4a...,KO.04.01.01,0.9994,KO.04.05.01,0.0004,KO.04.03.01,0.0001,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+80adac8040a15f7e...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+eeb85eebd17c47c0...,KO.02.02.01,0.9996,KO.02.01.01,0.0002,KO.02.02.02,0.0001,KO.02.01.01,False,"Innenwand, Massivbau, Beton"
+cee4186290c17713...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+d5dc7fd7fc2e1644...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+a6d1acc4b1228715...,KO.05.01,1.0,KO.99,0.0,F01.05.01,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+9ba47cf6dfe3080b...,KO.04.04.01,1.0,KO.04.01.01,0.0,F01.04.01,0.0,KO.04.04.01,True,Dachkonstruktion Flachdach
+45f8f1f71884c355...,HZ.09.01,0.8373,EL.09,0.1615,HZ.02.01,0.0008,SN.09,False,Kugelhähne
+619152522648579e...,KO.02.02.01,0.9861,KO.02.01.01,0.0088,KO.02.02.04,0.0042,KO.02.02.02,False,"Innenwand, Massivbau, Beton"
+b7cc518fc06a1973...,KO.02.02.01,0.9999,KO.02.02.05.01,0.0001,EQUIP.07,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+d479071fbc160ee2...,KO.04.01.01,1.0,F01.04.01,0.0,SN.21.08,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+dd2b1d25a4ee8874...,KO.04.02.01,0.9999,EQUIP.08,0.0,HZ.35,0.0,KO.04.02.01,True,"Steigzonen, Innen liegende Treppe, Massivbau, Beton"
+bf6eb20f6e6c606e...,F03.02,0.9999,KO.04.01.01,0.0001,KO.02.02.04,0.0,F03.02,True,Wandbekleidungssysteme
+1671e3aca8622b38...,KO.02.01.01,0.9662,KO.02.02.01,0.0261,KO.01.06.01,0.0019,KO.02.02.01,False,"Aussenwand, Massivbau, Beton"
+5dc9064efcd2ff23...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+1e865539f05f3850...,KO.04.02.03,1.0,LF.05,0.0,SN.07,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+6a06126d9083b5da...,SN.09,0.9993,KO.99,0.0004,SN.05.01,0.0001,SN.09,True,Waschtisch (Waschbecken)
+98f0941f50c1b894...,KO.02.02.01,0.9867,KO.02.02.03,0.0127,KO.04.01.01,0.0001,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+b8464e33c1d340bc...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+8720aedecd585673...,KO.99,1.0,KO.04.01.01,0.0,HZ.02.01,0.0,KO.99,True,Sonstige Konstruktion
+d24589d7db211a6c...,KO.04.01.02,1.0,KO.04.02.01,0.0,HZ.02.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+7aefc9aa977df896...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+99223776896159eb...,KO.02.02.05.01,0.8047,KO.04.01.01,0.1876,KO.02.02.01,0.0073,KO.02.02.05.01,True,"Innenwand, Leichtbauwand, Holz"
+4da69ec3ff26c923...,KO.03.02.02,0.5221,F01.04.01,0.2459,HZ.02.01,0.0281,F01.04.01,False,"Innenstützen Rohbau, Hybrid-Holzbau"
+39bd2386b9c03505...,F01.04.01,0.9998,KO.02.02.01,0.0002,KO.04.01.02,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+508c600e9700d689...,LF.31,0.9977,LF.31.01,0.0012,SN.21.05,0.0007,LF.31,True,Sonstige Lüftungskomponenten
+b36dda020213dcdb...,SN.49.01,1.0,SN.01,0.0,INT.07.01,0.0,HZ.11,False,Rohrdämmung
+65ef808beaeae5b4...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+c80e1f2b110b15a7...,SN.05.01,0.9999,HZ.04.01,0.0,HZ.35,0.0,SN.05.01,True,"Ventile, Absperrventile"
+6070bbb2354eeeb2...,KO.03.02.01,0.9999,KO.01.02.01,0.0001,SN.05.01,0.0,KO.03.02.01,True,"Innenstützen Rohbau, Massivbau, Beton"
+187e372ae3b91d1c...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+aa66c7046b65f345...,F03.02,1.0,F01.04.01,0.0,KO.99,0.0,KO.04.01.01,False,Wandbekleidungssysteme
+d982640f8d4f73ae...,KO.05.01,1.0,F01.04.01,0.0,F01.06,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+f7999fc55d897f0f...,KO.04.01.01,1.0,LF.31,0.0,KO.04.04.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+83bf6c27a1fc58ad...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+d4f4707847deb871...,KO.04.01.01,0.9913,INT.06.01,0.0086,F01.04.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+7e4fdc178254dfbf...,HZ.35,0.3813,KO.01.03,0.1929,INT.06.01,0.164,KO.04.01.01,False,Sonstige Heizungskomponenten
+d2de6e0c2eb3ceae...,KO.02.02.03,1.0,KO.02.02.01,0.0,KO.04.01.01,0.0,KO.02.02.03,True,"Innenwand, Stahlkonstruktion"
+e3b9777ba98612f1...,KO.04.04.01,1.0,KO.04.01.01,0.0,SN.21.08,0.0,KO.04.04.01,True,Dachkonstruktion Flachdach
+32f6085ff21c526e...,KO.05.01,0.9708,F01.06,0.0209,F01.04.01,0.0042,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+f2cc518b6e31a286...,F01.04.01,0.5574,KO.04.01.02,0.4263,KO.04.04.01,0.0126,KO.04.01.02,False,"Innenfenster, Fensterkomponenten"
+66992cb5da95a525...,KO.02.02.05.02,1.0,KO.02.01.01,0.0,KO.02.02.03,0.0,KO.02.02.05.02,True,"Innenwand, Glasbauwand"
+4e899d6c7ca318dc...,KO.04.05.02,0.7657,KO.02.01.01,0.0957,KO.02.02.01,0.0678,KO.02.02.01,False,"Aussen liegende Treppe, Zusammengebaut, Holz, Stahl"
+69f393ac6b389c7b...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+3e27c21df96cae84...,HZ.04.01,0.7044,KO.04.04.01,0.1232,KO.02.02.01,0.0512,KO.99,False,Wärmespeicher
+0febea9e8fff30f3...,KO.02.02.04,1.0,GAS.01,0.0,SN.07,0.0,KO.02.02.04,True,"Innenwand, Gipskarton, Trockenbauwand"
+18d2111ee0cecb20...,KO.04.01.01,0.9999,KO.04.05.01,0.0001,KO.04.03.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+a05fb6a45f47baa9...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+ee5b661677c55023...,F03.02,1.0,KO.03.02.02,0.0,KO.04.01.01,0.0,F03.02,True,Wandbekleidungssysteme
+98e034f4e8bf3160...,KO.02.02.05.01,0.9999,HZ.02.01,0.0001,KO.02.02.01,0.0,KO.02.02.05.01,True,"Innenwand, Leichtbauwand, Holz"
+c455f28b1d4cb95c...,SN.05.01,0.7745,SN.10,0.1605,LF.10,0.0556,SN.05.01,True,"Ventile, Absperrventile"
+9077e962d36a8ef2...,KO.05.01,0.7089,F01.04.01,0.2732,F01.05.01,0.0094,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+f258d703ce5c2ed2...,KO.06.01,1.0,F01.04.01,0.0,KO.02.01.04,0.0,KO.06.01,True,Fassadenkonstruktionssystem Vorhangfassade / Pfosten-Riegel-System
+a3ea8ab1017797c4...,KO.02.02.01,1.0,KO.02.01.03,0.0,KO.02.01.01,0.0,KO.02.02.01,True,"Innenwand, Massivbau, Beton"
+a8cadc3d6226a830...,KO.04.02.03,1.0,SN.07,0.0,HZ.35,0.0,KO.04.02.03,True,"Steigzonen, Innen liegende Treppe, Stahl"
+1409eeac43e06b5a...,LF.09,0.9999,SN.09,0.0,SN.05.01,0.0,SN.10,False,Luftauslass (Diffusor/Grill)
+0802d033e6e6bb49...,KO.99,0.9999,HZ.35,0.0001,HZ.02.01,0.0,KO.99,True,Sonstige Konstruktion
+8ba2c734025980b4...,HZ.35,0.7141,HZ.02.01,0.2848,LF.10,0.0001,KO.05.01,False,Sonstige Heizungskomponenten
+1f85804c8c71791a...,KO.05.01,0.9999,EQUIP.08,0.0,SN.22.02,0.0,F01.05.01,False,"Durchbruch, Schlitz zu Konstruktion"
+c8abc91ec908a70d...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+6f74eab2414fa9d8...,F03.02,1.0,KO.03.02.02,0.0,KO.02.02.04,0.0,F03.02,True,Wandbekleidungssysteme
+ee4f0d35a5afd5d0...,KO.04.01.02,1.0,F04.02.02,0.0,F01.04.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+591d802069e204ec...,KO.05.01,0.4967,KO.02.02.04,0.4472,GAS.01,0.0283,KO.04.01.01,False,"Durchbruch, Schlitz zu Konstruktion"
+416c694e75c4476e...,SN.49.01,0.8819,HZ.11,0.1096,EL.04,0.0016,SN.49.01,True,Rohrdämmung
+c9a891181c5541bf...,KO.04.01.02,0.9999,F04.02.02,0.0001,F03.02,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+3be544694fda0313...,SN.21.05,0.9999,SN.21.08,0.0001,LF.31,0.0,SN.21.05,True,T-Stücke
+decd91059efefc17...,KO.04.01.01,0.9319,F01.05.01,0.0675,SN.07,0.0001,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+4e8b5c0fde81c169...,KO.05.01,1.0,F01.05.01,0.0,KO.02.02.04,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+91b36bbd7d247e8d...,KO.05.01,1.0,F01.04.01,0.0,F01.06,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+ea54ecdcfae4c240...,EL.09,0.6682,KO.04.01.01,0.1071,KO.02.02.04,0.0662,SN.09,False,Steckdose
+d117d94a14940d53...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+a27aac9f2551a34a...,KO.05.01,1.0,F01.05.01,0.0,SN.07,0.0,KO.05.01,True,"Durchbruch, Schlitz zu Konstruktion"
+34bc71ebfa2293f7...,KO.04.01.02,1.0,KO.04.02.01,0.0,F01.04.01,0.0,KO.04.01.02,True,"Geschossdeckenträger, Stahl"
+809c67f2f035579d...,EL.29,0.3873,SN.09,0.2123,SN.10,0.0682,KO.02.02.04,False,Abhänger (Hängestiehl)
+f17a579e68cff0e2...,KO.02.02.03,0.9999,KO.02.02.01,0.0001,HZ.35,0.0,KO.02.02.03,True,"Innenwand, Stahlkonstruktion"
+a1ddf663339f3176...,KO.04.01.01,1.0,F04.02.02,0.0,KO.04.03.01,0.0,KO.04.01.01,True,"Geschossdecke, Massiv, Beton"
+9d05fbfff499d8ab...,F01.04.01,1.0,KO.05.01,0.0,SN.07,0.0,F01.04.01,True,"Innenfenster, Fensterkomponenten"
+f5687de8ee38b86d...,KO.02.02.05.01,0.9998,KO.02.02.01,0.0002,KO.04.01.01,0.0,KO.02.02.05.01,True,"Innenwand, Leichtbauwand, Holz"

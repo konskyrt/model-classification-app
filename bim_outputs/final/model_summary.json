@@ -1,0 +1,107 @@
+{
+  "experiment": "exp3_huge_signature_mitigation",
+  "model_name": "LightGBM",
+  "n_estimators": 800,
+  "learning_rate": 0.04,
+  "num_leaves": 63,
+  "min_child_samples": 8,
+  "reg_alpha": 0.2,
+  "reg_lambda": 0.2,
+  "class_weight": "balanced",
+  "random_state": 42,
+  "accuracy": 0.8846,
+  "macro_f1": 0.6375,
+  "weighted_f1": 0.8894,
+  "mean_confidence": 0.9183,
+  "train_time_s": 61.3,
+  "train_signatures": 2495,
+  "test_signatures": 624,
+  "num_classes": 97,
+  "feature_matrix_shape": {
+    "rows": 2495,
+    "cols": 7445
+  },
+  "text_features": {
+    "method": "FeatureUnion(TF-IDF word + char)",
+    "word_tfidf": {
+      "max_features": 10000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 2
+    },
+    "char_tfidf": {
+      "max_features": 3000,
+      "analyzer": "char_wb",
+      "ngram_range": [
+        4,
+        5
+      ],
+      "sublinear_tf": true,
+      "min_df": 2
+    }
+  },
+  "categorical_features": {
+    "encoder": "OneHotEncoder",
+    "columns": [
+      "element_type",
+      "object_type"
+    ],
+    "handle_unknown": "ignore"
+  },
+  "numerical_features": {
+    "scaler": "RobustScaler",
+    "imputation": "median",
+    "columns": [
+      "raw_object_count",
+      "volume_mean",
+      "volume_max",
+      "volume_min",
+      "volume_std",
+      "volume_sum",
+      "volume_sum_log1p",
+      "area_mean",
+      "area_max",
+      "area_min",
+      "area_std",
+      "area_sum",
+      "area_sum_log1p",
+      "length_mean",
+      "length_max",
+      "length_min",
+      "length_std",
+      "length_sum",
+      "length_sum_log1p",
+      "width_mean",
+      "width_max",
+      "width_min",
+      "width_std",
+      "width_sum",
+      "width_sum_log1p",
+      "height_mean",
+      "height_max",
+      "height_min",
+      "height_std",
+      "height_sum",
+      "height_sum_log1p",
+      "object_count",
+      "objectcount_log1p",
+      "is_huge_signature"
+    ]
+  },
+  "split_strategy": "Signature-level stratified 80/20",
+  "leakage_prevention": "No row-level splitting",
+  "projects_covered": [
+    "HIAG_unified_corrected_labels.xlsx",
+    "HHM_unified_corrected_labels.xlsx",
+    "ELP_unified_corrected_labels (1).xlsx",
+    "Burckhardt_unified_corrected_labels.xlsx",
+    "BB07_unified_corrected_labels.xlsx",
+    "Spiez_BIM_data_export_unified_corrected_labels.xlsx"
+  ],
+  "label_encoding": {
+    "num_encoded_classes": 97
+  }
+}

@@ -1,0 +1,2 @@
+experiment,accuracy,macro_f1,weighted_f1,mean_confidence,train_time_s,train_signatures,test_signatures,num_classes
+exp3_huge_signature_mitigation,0.8846,0.6375,0.8894,0.9183,61.3,2495,624,97
