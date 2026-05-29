@@ -5,7 +5,6 @@ import numpy as np
 import plotly.express as px
 from pathlib import Path
 import json
-from sklearn.metrics import confusion_matrix
 
 st.set_page_config(page_title="BIM Label Classifier Dashboard", layout="wide")
 
@@ -253,9 +252,13 @@ if class_metrics_df is not None and "label_code" in class_metrics_df.columns:
 
 st.subheader("Confusion Matrix (Top 20 Classes by Support)")
 top20 = pred_df["true_label"].value_counts().head(20).index.tolist()
-cm = confusion_matrix(pred_df["true_label"], pred_df["predicted_label"], labels=top20)
 top20_display = [label_display(code) for code in top20]
-cm_top = pd.DataFrame(cm, index=top20_display, columns=top20_display)
+cm_top = pd.crosstab(
+    pred_df["true_label"],
+    pred_df["predicted_label"],
+).reindex(index=top20, columns=top20, fill_value=0)
+cm_top.index = top20_display
+cm_top.columns = top20_display
 
 fig5 = px.imshow(
     cm_top,
