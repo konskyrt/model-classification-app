@@ -13,6 +13,8 @@ pip install -r requirements.txt
 streamlit run dashboard_updated.py
 ```
 
+For retraining with the notebook, use `pip install -r requirements-train.txt` instead.
+
 Open `http://localhost:8501`. The dashboard reads exported results from `bim_outputs/final/` and shows label **names** alongside codes (via `label_object.json` and `label_names.json`).
 
 ### Share via URL (Streamlit Community Cloud)

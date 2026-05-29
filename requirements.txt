@@ -1,12 +1,6 @@
+# Dashboard dependencies (Streamlit Cloud)
+streamlit==1.38.0
 pandas==2.2.2
 numpy==1.26.4
-scikit-learn==1.5.1
-lightgbm==4.5.0
-openpyxl==3.1.5
-streamlit==1.38.0
 plotly==5.24.1
-scipy==1.14.1
-joblib==1.4.2
-jupyterlab==4.2.5
-notebook==7.2.2
-ipykernel==6.29.5
+scikit-learn==1.5.1
