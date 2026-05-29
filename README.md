@@ -1,30 +1,28 @@
-# BIM Taxonomy Classifier
+# BIM Label Classifier — Results Dashboard
 
-Supervised **machine learning** workflow for predicting corrected BIM `Label Code` values from aggregated object-signature data.
+**View-only** Streamlit dashboard for sharing model evaluation results with stakeholders.  
+All metrics and predictions are **pre-exported** in `bim_outputs/final/` — **no training runs in the app**.
 
-> **Not LLM-based:** this is a classical ML classifier (LightGBM on engineered features — TF-IDF text, categorical encodings, geometry). It is trained on labeled project data and outputs confidence scores plus alternative classes. It does not use prompt-based or generative language models.
+> **Not LLM-based:** classical ML classifier (LightGBM), already trained on project data. The dashboard only displays results.
 
-## Quick start — view results (dashboard)
+## For your manager — open the live page
+
+Deploy from [share.streamlit.io](https://share.streamlit.io):
+
+- **Repository:** `konskyrt/model-classification-app`
+- **Main file:** `dashboard_updated.py`
+- **Python:** 3.12 (via `.python-version`)
+
+Send the app URL (e.g. `https://model-classification-app-xxxxx.streamlit.app`).
+
+## Run locally (optional)
 
 ```powershell
-python -m venv .venv
-.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 streamlit run dashboard_updated.py
 ```
 
-For retraining with the notebook, use `pip install -r requirements-train.txt` instead.
-
-Open `http://localhost:8501`. The dashboard reads exported results from `bim_outputs/final/` and shows label **names** alongside codes (via `label_object.json` and `label_names.json`).
-
-### Share via URL (Streamlit Community Cloud)
-
-Deploy from this repo at [share.streamlit.io](https://share.streamlit.io):
-
-- **Repository:** `amberg-loglay/classifier`
-- **Main file:** `dashboard_updated.py`
-
-You'll get a public link like `https://classifier-xxxxx.streamlit.app` to send to stakeholders.
+Open `http://localhost:8501`. Reads pre-computed files from `bim_outputs/final/` and shows label **names** alongside codes.
 
 ## Training datasets
 
@@ -63,11 +61,9 @@ See `experiment_comparison_metrics.png` for experiment comparison and `bim_outpu
 └── baseline model files/           # Baseline comparison artifacts
 ```
 
-## Retrain the model
+## Retrain the model (optional, not needed for the dashboard)
 
-1. Place corrected source Excel files in your data directory (see `READMEmd.txt` for expected filenames).
-2. Update `DATA_DIR` in `bim_classifier_final.ipynb`.
-3. Run the notebook top to bottom — outputs are written to `bim_outputs/final/`.
+Training notebook and extra deps are kept for reference only (`bim_classifier_final.ipynb`, `requirements-train.txt`).
 
 ## Modeling approach
 
