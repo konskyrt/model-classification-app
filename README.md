@@ -15,6 +15,8 @@ Deploy from [share.streamlit.io](https://share.streamlit.io):
 
 Send the app URL (e.g. `https://model-classification-app-xxxxx.streamlit.app`).
 
+**If the build fails on Python 3.14:** delete the app on Streamlit Cloud and redeploy — pick **Python 3.12** under Advanced settings. The repo also includes `environment.yml` to force Python 3.12 via conda.
+
 ## Run locally (optional)
 
 ```powershell
