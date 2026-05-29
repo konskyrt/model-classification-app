@@ -15,6 +15,15 @@ streamlit run dashboard_updated.py
 
 Open `http://localhost:8501`. The dashboard reads exported results from `bim_outputs/final/` and shows label **names** alongside codes (via `label_object.json` and `label_names.json`).
 
+### Share via URL (Streamlit Community Cloud)
+
+Deploy from this repo at [share.streamlit.io](https://share.streamlit.io):
+
+- **Repository:** `amberg-loglay/classifier`
+- **Main file:** `dashboard_updated.py`
+
+You'll get a public link like `https://classifier-xxxxx.streamlit.app` to send to stakeholders.
+
 ## Training datasets
 
 Model trained on corrected BIM exports from six projects:
